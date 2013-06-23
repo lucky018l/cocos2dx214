@@ -1,0 +1,35 @@
+﻿Build started 6/23/2013 11:22:28 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\WatermelonWithMe.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         if exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes" rd /s /q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes"
+         mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes"
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\*.js" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes" /e /Y
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\Shared\games\WatermelonWithMe" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes\" /e /Y
+         :VCEnd
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_extension.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocosbuilder.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_debugger.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_sys.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\main.debug.js
+         12 File(s) copied
+         0 File(s) copied
+         File not found - WatermelonWithMe
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: The command "if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: if exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes" rd /s /q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes"
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes"
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\..\..\scripting\javascript\bindings\js\*.js" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes" /e /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\..\..\Shared\games\WatermelonWithMe" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\WatermelonWithMeRes\" /e /Y
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(124,5): error MSB3073: :VCEnd" exited with code 4.
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\WatermelonWithMe\proj.win32\WatermelonWithMe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.15

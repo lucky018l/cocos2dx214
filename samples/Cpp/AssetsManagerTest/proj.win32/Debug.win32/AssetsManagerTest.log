@@ -1,0 +1,48 @@
+﻿Build started 6/23/2013 1:16:23 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\AssetsManagerTest.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         if exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\AssetsManagerTestRes" rd /s /q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\AssetsManagerTestRes"
+         mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\AssetsManagerTestRes"
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\*.js" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\AssetsManagerTestRes\" /e /Y
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\AssetsManagerTestRes\" /e /Y
+         :VCEnd
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_extension.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocosbuilder.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_debugger.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_sys.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\bindings\js\main.debug.js
+         12 File(s) copied
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources\Background.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources\CloseNormal.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources\CloseSelected.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources\main.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\Resources\myApp.js
+         5 File(s) copied
+       PreLinkEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         xcopy /Y /Q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\..\..\..\..\scripting\javascript\spidermonkey-win32\lib\*.*" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib libchipmunk.lib libJSBinding.lib mozjs.lib ws2_32.lib sqlite3.lib pthreadVCE2.lib libcurl_imp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.lib" /MACHINE:X86 /SAFESEH Debug.win32\res.res
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libcocos2d.lib"
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libCocosDenshion.lib"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.lib and object E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.exp
+         AssetsManagerTest.vcxproj -> E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\AssetsManagerTest.exe
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\AssetsManagerTest\proj.win32\AssetsManagerTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

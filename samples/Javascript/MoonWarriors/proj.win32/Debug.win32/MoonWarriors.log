@@ -1,0 +1,143 @@
+﻿Build started 6/23/2013 11:21:55 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\MoonWarriors.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\"
+         if exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\MoonWarriorsRes" rd /s /q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\MoonWarriorsRes"
+         mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\MoonWarriorsRes"
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\*.js" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\MoonWarriorsRes" /e /Y
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\MoonWarriorsRes\" /e /Y
+         :VCEnd
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_extension.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocosbuilder.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_debugger.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_sys.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings\js\main.debug.js
+         12 File(s) copied
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\index.html
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\main.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\MoonWarriors-html5.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\MoonWarriors-jsb.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator.html
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\Platform\iOS\Info.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\Platform\OSX\Info.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\Platform\OSX\English.lproj\InfoPlist.strings
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\Platform\OSX\English.lproj\MoonWarriors.xib
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\arial-14.fnt
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\arial-14.GlyphProject
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\arial-14.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\b01.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\cocos2d-html5.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\explode.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\explosion.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\explosion.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\flare.jpg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\gameOver.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\level01.tmx
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\loading.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\logo.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\menu.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\menuTitle.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\textureOpaquePack.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\textureOpaquePack.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\textureTransparentPack.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\textureTransparentPack.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\bgMusic.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\bgMusic.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\buttonEffet.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\buttonEffet.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\explodeEffect.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\explodeEffect.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\fireEffect.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\fireEffect.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\mainMainMusic.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\mainMainMusic.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\shipDestroyEffect.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\res\Music\shipDestroyEffect.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\1024x768.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\1136x640.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\1280x720.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\480x320.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\800x480.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\854x480.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\960x540.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\960x640.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\device.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\play.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\imgs\rotate.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\simulator\js\miniFramework.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\AboutLayer.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Bullet.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Effect.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Enemy.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Explosion.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\GameController.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\GameControlMenu.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\GameLayer.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\GameOver.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\HitEffect.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\LevelManager.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Resource.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\SettingsLayer.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\Ship.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\SparkEffect.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\SysMenu.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\config\EnemyType.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\config\GameConfig.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\Shared\games\MoonWarriors\src\config\Level.js
+         71 File(s) copied
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\spidermonkey-win32\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\external\chipmunk\include\chipmunk" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\bindings" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\extensions" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D DEBUG /D XP_WIN /D JS_HAVE___INTN /D JS_INTPTR_TYPE=int /D COCOS2D_DEBUG=1 /D COCOS2D_JAVASCRIPT=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt main.cpp ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsutil.h(324): warning C4800: 'size_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(968): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(973): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(983): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(988): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(993): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(998): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1003): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1008): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1013): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1018): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1023): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1028): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1033): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1038): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1043): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1049): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1054): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1130): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1443): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsclass.h(315): warning C4800: 'const uint32_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsfriendapi.h(451): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+         main.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /IDebug.win32\ /nologo /fo"Debug.win32\testjs.res" testjs.rc 
+       PreLinkEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\"
+         xcopy /Y /Q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\scripting\javascript\spidermonkey-win32\lib\*.*" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\"
+         
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib libchipmunk.lib libJSBinding.lib libcurl_imp.lib mozjs.lib ws2_32.lib sqlite3.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.lib" /MACHINE:X86 /SAFESEH Debug.win32\testjs.res
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libcocos2d.lib"
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libCocosDenshion.lib"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.lib and object E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.exp
+         MoonWarriors.vcxproj -> E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\..\..\..\..\Debug.win32\MoonWarriors.exe
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\MoonWarriors\proj.win32\MoonWarriors.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.09

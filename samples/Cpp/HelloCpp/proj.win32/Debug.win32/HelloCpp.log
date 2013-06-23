@@ -1,0 +1,15 @@
+﻿Build started 6/23/2013 1:17:46 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\HelloCpp\proj.win32\HelloCpp.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\HelloCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\" opengl32.lib glew32.lib libcocos2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\HelloCpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\HelloCpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libcocos2d.lib"
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libCocosDenshion.lib"
+     1>AppDelegate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         HelloCpp.vcxproj -> E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\HelloCpp.exe
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Cpp\HelloCpp\proj.win32\HelloCpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65

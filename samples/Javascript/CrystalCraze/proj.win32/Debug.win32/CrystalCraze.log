@@ -1,0 +1,198 @@
+﻿Build started 6/23/2013 11:22:51 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\CrystalCraze.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         if exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\CrystalCrazeRes" rd /s /q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\CrystalCrazeRes"
+         mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\CrystalCrazeRes"
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\*.js" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\CrystalCrazeRes" /e /Y
+         xcopy "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\CrystalCrazeRes\" /e /Y
+         :VCEnd
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_chipmunk_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocos2d_extension.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_cocosbuilder.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_debugger.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_opengl_constants.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\jsb_sys.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings\js\main.debug.js
+         12 File(s) copied
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\AboutScene.ccbi
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\AboutScene.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\fileLookup.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\GameScene.ccbi
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\GameScene.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\main.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\MainScene.ccbi
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\MainScene.js
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbDefaultImages.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbDefaultImages.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbParticleFire.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbParticleSmoke.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbParticleSnow.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\ccbResources\ccbParticleStars.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\fonts\scorefont.fnt
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\fonts\scorefont.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\background.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\btn-pause-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\btn-pause.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\go.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\header.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\iPhone5-padding.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\shimmer.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\shimmer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-large\timer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\background.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\btn-pause-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\btn-pause.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\go.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\header.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\iPhone5-padding.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\shimmer.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\shimmer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-medium\timer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\background.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\btn-pause-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\btn-pause.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\go.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\header.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\iPhone5-padding.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\shimmer.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\shimmer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-small\timer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\background.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\btn-pause-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\btn-pause.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\go.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\header.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\iPhone5-padding.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\shimmer.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\shimmer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\gamescene\resources-xlarge\timer.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\about-bg.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\about-fade.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-about-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-about.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-done-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-done.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-play-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\btn-play.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-large\logo.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\about-bg.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\about-fade.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-about-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-about.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-done-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-done.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-play-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\btn-play.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-medium\logo.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\about-bg.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\about-fade.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-about-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-about.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-done-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-done.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-play-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\btn-play.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-small\logo.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\about-bg.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\about-fade.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-about-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-about.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-done-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-done.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-play-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\btn-play.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\mainscene\resources-xlarge\logo.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\bg-stars.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\falling-gem.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\power-play.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\taken-gem.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\taken-gem.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\taken-hrow.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\particles\taken-vrow.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-large\clickme-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-large\clickme.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-large\crystals.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-large\crystals.pvr
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-medium\clickme-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-medium\clickme.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-medium\crystals.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-medium\crystals.pvr
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-small\clickme-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-small\clickme.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-small\crystals.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-small\crystals.pvr
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-xlarge\clickme-down.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-xlarge\clickme.png
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-xlarge\crystals.plist
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\resources-xlarge\crystals.pvr
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\click.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\endgame.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\gem-0.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\gem-1.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\gem-2.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\gem-3.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\gem-4.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\loop.mp3
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\miss.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\powerup.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\tap-0.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\tap-1.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\tap-2.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\tap-3.ogg
+         E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\Shared\games\CrystalCraze\Published-Android\sounds\timer.ogg
+         126 File(s) copied
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\Classes" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\spidermonkey-win32\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\external\chipmunk\include\chipmunk" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\extensions" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\bindings" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D DEBUG /D XP_WIN /D JS_HAVE___INTN /D JS_INTPTR_TYPE=int /D COCOS2D_DEBUG=1 /D COCOS2D_JAVASCRIPT=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt main.cpp ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsutil.h(324): warning C4800: 'size_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(968): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(973): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(983): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(988): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(993): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(998): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1003): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1008): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1013): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1018): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1023): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1028): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1033): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1038): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1043): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1049): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1054): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1130): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\js\value.h(1443): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsclass.h(315): warning C4800: 'const uint32_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\spidermonkey-win32\include\jsfriendapi.h(451): warning C4800: 'JSBool' : forcing value to bool 'true' or 'false' (performance warning)
+         main.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /IDebug.win32\ /nologo /fo"Debug.win32\testjs.res" testjs.rc 
+       PreLinkEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         xcopy /Y /Q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\..\..\..\..\scripting\javascript\spidermonkey-win32\lib\*.*" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         
+         :VCEnd
+         2 File(s) copied
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib libchipmunk.lib libJSBinding.lib libcurl_imp.lib mozjs.lib ws2_32.lib sqlite3.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.lib" /MACHINE:X86 /SAFESEH Debug.win32\testjs.res
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libcocos2d.lib"
+         "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libCocosDenshion.lib"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.lib and object E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.exp
+         CrystalCraze.vcxproj -> E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\CrystalCraze.exe
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\samples\Javascript\CrystalCraze\proj.win32\CrystalCraze.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.90
