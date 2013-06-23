@@ -1,0 +1,138 @@
+﻿Build started 6/23/2013 1:14:37 AM.
+     1>Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\libJSBinding.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\" mkdir "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         xcopy /Y /Q "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\external\sqlite3\libraries\win32\*.*" "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\pthread" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\CocosDenshion\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\.." /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\spidermonkey-win32\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\external\chipmunk\include\chipmunk" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\external\libwebsockets\win32\include" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\extensions" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\extensions\LocalStorage" /I"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\..\..\..\..\extensions\network" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LIB /D DEBUG /D COCOS2D_DEBUG=1 /D XP_WIN /D JS_HAVE___INTN /D JS_INTPTR_TYPE=int /D COCOS2D_JAVASCRIPT=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4068 /wd4101 /wd4800 /wd4251 /wd4996 /wd4244 /analyze- /errorReport:prompt ..\cocos2d_specifics.cpp ..\cocosjs_manual_conversions.cpp ..\generated\jsb_cocos2dx_auto.cpp ..\generated\jsb_cocos2dx_extension_auto.cpp ..\jsb_cocos2dx_extension_manual.cpp ..\jsb_opengl_functions.cpp ..\jsb_opengl_manual.cpp ..\jsb_opengl_registration.cpp ..\jsb_websocket.cpp ..\js_bindings_ccbreader.cpp ..\js_bindings_chipmunk_auto_classes.cpp ..\js_bindings_chipmunk_functions.cpp ..\js_bindings_chipmunk_manual.cpp ..\js_bindings_chipmunk_registration.cpp ..\js_bindings_core.cpp ..\js_bindings_opengl.cpp ..\js_bindings_system_functions.cpp ..\js_bindings_system_registration.cpp ..\js_manual_conversions.cpp ..\ScriptingCore.cpp ..\XMLHTTPRequest.cpp
+         XMLHTTPRequest.cpp
+         ScriptingCore.cpp
+         js_manual_conversions.cpp
+         js_bindings_system_registration.cpp
+         js_bindings_system_functions.cpp
+         js_bindings_opengl.cpp
+         js_bindings_core.cpp
+         js_bindings_chipmunk_registration.cpp
+         js_bindings_chipmunk_manual.cpp
+         js_bindings_chipmunk_functions.cpp
+         js_bindings_chipmunk_auto_classes.cpp
+         js_bindings_ccbreader.cpp
+         jsb_websocket.cpp
+         jsb_opengl_registration.cpp
+         jsb_opengl_manual.cpp
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\jsb_opengl_manual.cpp(385): warning C4018: '<' : signed/unsigned mismatch
+         jsb_opengl_functions.cpp
+         jsb_cocos2dx_extension_manual.cpp
+         jsb_cocos2dx_extension_auto.cpp
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_extension_auto.cpp(3042): warning C4083: expected '('; found identifier 'NO'
+         jsb_cocos2dx_auto.cpp
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1244): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1411): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1450): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1491): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(2536): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(4279): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(4282): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(9938): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(10087): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12648): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12649): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12650): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18629): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18677): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18699): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18798): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18818): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18842): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(22179): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(23001): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(27865): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(27904): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(27941): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(28161): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(28183): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(28203): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(30056): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(30394): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(46088): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(46349): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(49962): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(49966): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(50028): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(50032): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(51799): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(51817): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(53366): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(53457): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(54630): warning C4083: expected '('; found identifier 'NO'
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(54692): warning C4083: expected '('; found identifier 'NO'
+         cocosjs_manual_conversions.cpp
+         Generating Code...
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1247): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1453): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1494): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(2538): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(1414): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(4284): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(4284): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12652): warning C4700: uninitialized local variable 'arg2' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12652): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(12652): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18678): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18700): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18799): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(18843): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(22182): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(23004): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(27905): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(27942): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(28162): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(28184): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(30058): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(30395): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(46091): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(46351): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(49964): warning C4700: uninitialized local variable 'arg2' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(49967): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(50030): warning C4700: uninitialized local variable 'arg2' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(50033): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(51800): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(51819): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(53368): warning C4700: uninitialized local variable 'arg1' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(53459): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(54631): warning C4700: uninitialized local variable 'jsret' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_auto.cpp(54694): warning C4700: uninitialized local variable 'arg0' used
+     1>e:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\generated\jsb_cocos2dx_extension_auto.cpp(3045): warning C4700: uninitialized local variable 'arg0' used
+         Compiling...
+         cocos2d_specifics.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libJSBinding.lib" /NOLOGO Debug.win32\cocos2d_specifics.obj
+         Debug.win32\cocosjs_manual_conversions.obj
+         Debug.win32\jsb_cocos2dx_auto.obj
+         Debug.win32\jsb_cocos2dx_extension_auto.obj
+         Debug.win32\jsb_cocos2dx_extension_manual.obj
+         Debug.win32\jsb_opengl_functions.obj
+         Debug.win32\jsb_opengl_manual.obj
+         Debug.win32\jsb_opengl_registration.obj
+         Debug.win32\jsb_websocket.obj
+         Debug.win32\js_bindings_ccbreader.obj
+         Debug.win32\js_bindings_chipmunk_auto_classes.obj
+         Debug.win32\js_bindings_chipmunk_functions.obj
+         Debug.win32\js_bindings_chipmunk_manual.obj
+         Debug.win32\js_bindings_chipmunk_registration.obj
+         Debug.win32\js_bindings_core.obj
+         Debug.win32\js_bindings_opengl.obj
+         Debug.win32\js_bindings_system_functions.obj
+         Debug.win32\js_bindings_system_registration.obj
+         Debug.win32\js_manual_conversions.obj
+         Debug.win32\ScriptingCore.obj
+         Debug.win32\XMLHTTPRequest.obj
+         libJSBinding.vcxproj -> E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\Debug.win32\libJSBinding.lib
+     1>Done Building Project "E:\work\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\javascript\bindings\proj.win32\libJSBinding.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:45.44
